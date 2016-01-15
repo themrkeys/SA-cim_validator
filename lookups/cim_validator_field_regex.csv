@@ -2,6 +2,7 @@ field,validation_regex
 tag,".*"
 severity,"^(critical|high|medium|low|informational)$"
 action,"^(success|failure|allowed|blocked|deferred)$"
+date,"^[^ ]$"
 dest,"^[\w\.-]+$"
 src,"^[\w\.-]+$"
 dvc,"^[\w\.-]+$"
